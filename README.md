@@ -10,7 +10,7 @@
 ### Sin completar.
 
 ## Boletín 21:
-### Sin completar.
+### Completado.
 
 ## Boletín 25:
 ### Completado.
