@@ -12,5 +12,8 @@
 ## Boletín 21:
 ### Sin completar.
 
+## Boletín 25:
+### Completado.
+
 ## Boletín 26:
 ### Completado.
