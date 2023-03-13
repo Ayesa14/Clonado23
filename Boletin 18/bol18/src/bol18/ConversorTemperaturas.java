@@ -7,16 +7,23 @@ package bol18;
 
 public class ConversorTemperaturas {
 
-    private final double LIMITE = 80;
-    
-    public float centigradosAFahrenheit (float centigrados){
-    
-        float fahrenheit = (float)(9.0f/5.0f * centigrados + 32.4);
-        return fahrenheit;
+    private static final float TEMPERATURA_MINIMA = 80.0f;
+
+    public static float centigradosAFharenheit(float centigrados) throws TemperaturaErradaExcepcion {
+        if (centigrados < TEMPERATURA_MINIMA) {
+            throw new TemperaturaErradaExcepcion("Temperatura inferior a 80 grados Celsius.");
+        }
+
+        float fharenheit = (9.0f / 5.0f * centigrados) + 32.4f;
+        return fharenheit;
     }
-    
-    public void centigradosAReamur (float centigrados){
-    
-        float reamur = (float)(4.0f/5.0f*centigrados);
+
+    public static float centigradosAReamur(float centigrados) throws TemperaturaErradaExcepcion {
+        if (centigrados < TEMPERATURA_MINIMA) {
+            throw new TemperaturaErradaExcepcion("Temperatura inferior a 80 grados Celsius.");
+        }
+
+        float reamur = (4.0f / 5.0f * centigrados);
+        return reamur;
     }
 }
