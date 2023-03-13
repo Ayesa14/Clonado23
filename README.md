@@ -18,8 +18,14 @@
 ## Boletín 23:
 ### Completado.
 
+## Boletín 24:
+### Completado.
+
 ## Boletín 25:
 ### Completado.
 
 ## Boletín 26:
 ### Completado.
+
+## Boletín 27:
+### Sin completar.
