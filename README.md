@@ -15,6 +15,9 @@
 ## Boletín 22:
 ### Completado.
 
+## Boletín 23:
+### Completado.
+
 ## Boletín 25:
 ### Completado.
 
