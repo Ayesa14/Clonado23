@@ -1,7 +1,7 @@
 # Programación: Boletines 2ª evaluación
 
 ## Boletín 18:
-### Sin completar.
+### Completado.
 
 ## Boletín 19:
 ### Completado.
